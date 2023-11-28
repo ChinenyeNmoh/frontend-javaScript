@@ -1,0 +1,116 @@
+.text5{
+    width: 60%;
+    height: 80%;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 90px;
+    color: hsl(213, 96%, 18%);
+    position: relative;
+    font-size: 14px;
+    position: relative;
+    display: none;
+    font-size: 16px;
+  }
+  .finish{
+    margin-top: 30px;
+    background-color: hsl(225, 14%, 95%);
+    height: 180px;
+    padding: 15px;
+    width: 95%;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .f1{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .change{
+    font-weight: lighter;
+    color: hsl(224, 5%, 52%);
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .f2{
+    position: absolute;
+    top: 11%;
+    left: 85%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .online{
+    color: hsl(224, 5%, 52%);
+    font-size: 16px;
+    display: none;
+
+  }
+  .f3{
+    font-size: 14px;
+    font-weight: bolder;
+    display: none;
+    padding-top: 5px;
+  }
+  .larger{
+    color: hsl(224, 5%, 52%);
+    margin-top: 7px;
+    font-size: 16px;
+    display: none;
+
+  }
+  .customize{
+    color: hsl(224, 5%, 52%);
+    margin-top: 7px;
+    font-size: 16px;
+    display: none;
+  }
+  .set{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    
+  }
+
+  .f4{
+    font-size: 14px;
+    font-weight: bolder;
+    display: none;
+    padding-top: 9px;
+  }
+  .f42{
+    font-size: 14px;
+    font-weight: bolder;
+    display: none;
+    padding-top: 10px;
+  }
+  .total{
+    margin-top: 15px;
+    position: absolute;
+    left: 15px;
+    color: hsl(224, 5%, 52%);
+  }
+  .f5{
+    position: absolute;
+    left: 77%;
+    top: 71%;
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(243, 100%, 62%);
+  }
+  #go{
+    color: hsl(224, 5%, 52%);
+    font-size: 18px;
+  }
+  #btn4{
+    top: 70%;
+    right: 40px;
+    height: 50px;
+    background-color: hsl(243, 100%, 62%);
+    border-color: transparent;
+  }

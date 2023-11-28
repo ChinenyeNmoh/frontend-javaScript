@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 376px) and (max-width: 1440px) {
+    body {
+      font-size: 14px;
+      background-color: hsl(217, 100%, 97%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Ubuntu', sans-serif;;
+    }
+  }
+  .container1{
+    border-radius: 10px;
+    width: 70%;
+    height: 80%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+  }
+  .image{
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 13px;
+    height: 95%;
+    background-image: url('bar.png');
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    background-size: 100%;
+  }
+  .text{
+    width: 60%;
+    height: 80%;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 80px;
+    color: hsl(213, 96%, 18%);
+    position: relative;
+    display: block;
+  }
+.errmsg1{
+  position: absolute;
+  top:22%;
+  left: 30%;
+  color: red;
+  display: none;
+}
+.errmsg2{
+  position: absolute;
+  top:40%;
+  left: 35%;
+  color: red;
+  display: none;
+}
+.errmsg3{
+  position: absolute;
+  top:60%;
+  left: 35%;
+  color: red;
+  display: none;
+}
+  .num{
+    border: 2px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .num:hover{
+    background-color: hsl(206, 94%, 87%);
+  }
+  .navdiv{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    color: hsl(0, 0%, 100%);
+  }
+
+
+  .step{
+    position: absolute;
+    left: 20%;
+  }
+  .your{
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    font-weight:bold;
+  }
+  .step2{
+    position: absolute;
+    left: 20%;
+  }
+  .select{
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    font-weight:bold;
+  }
+  .step3{
+    position: absolute;
+    left: 20%;
+  }
+  .add{
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    font-weight:bold;
+  }
+  .step4{
+    position: absolute;
+    left: 20%;
+  }
+  .sum{
+    position: absolute;
+    left: 20%;
+    top: 68%;
+    font-weight:bold;
+  }
+.please{
+    margin-top: 10px;
+}
+#myform{
+    margin-top: 10px;
+}
+label{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+}
+.btn1{
+    margin-top: 90px;
+    align-self:flex-end;
+    background-color: hsl(213, 96%, 18%);
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    right: 165px;
+    width: 90px;
+    cursor: pointer;
+}

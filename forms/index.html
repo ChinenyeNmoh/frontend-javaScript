@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\styles\style.css">
+    <link rel="stylesheet" href="static\styles\style2.css">
+    <link rel="stylesheet" href="static\styles\style3.css">
+    <link rel="stylesheet" href="static\styles\style4.css">
+    <link rel="stylesheet" href="static\styles\style5.css">
+    <link rel="shortcut icon" href="multiple.png" type="image/x-icon">
+    <title>challenge4</title>
+</head>
+<body>
+    <div class="container1">
+        <div class="image">
+            <nav>
+                <div class="navdiv">
+                    <p class="num" id="1">1</p>
+                    <p class="step">Step 1</p>
+                    <p class="your">YOUR INFO</p>
+                </div>
+                <div class="navdiv">
+                    <p class="num" id="2">2</p>
+                    <p class="step2">Step 2</p>
+                    <p class="select">SELECT PLAN</p>
+                </div>
+                <div class="navdiv">
+                    <p class="num" id="3">3</p>
+                    <p class="step3">Step 3</p>
+                    <p class="add">ADD-ONS</p>
+                </div>
+                <div class="navdiv">
+                    <p class="num" id="4">4</p>
+                    <p class="step4">Step 4</p>
+                    <p class="sum">SUMMARY</p>
+                </div>
+            </nav>
+        </div>
+        <div class="text">
+            <h2>Personal info</h2>
+            <p class="Please">Please provide your name, email address, and phone number.</p>
+            <form method="get" id="myform">
+                <div class="label">
+                    <small class="errmsg1">error message</small>
+                    <label>Name</label>
+                    <input type="text" class="nameinput" required placeholder="e.g. Stephen King" minlength="3"title="Name should not be less than 3 characters" maxlength="50">
+                </div>
+                <div class="label">
+                    <small class="errmsg2">error message</small>
+                    <label>Email Address</label>
+                    <input type="email"  class="emailinput" placeholder="e.g. stephenking@lorem.com" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Enter a valid email address">
+                </div>
+                <div class="label">
+                    <small class="errmsg3">error message</small>
+                    <label>Phone Number</label>
+                    <input type="tel" class="numinput" required pattern="\d{11}" title="Enter an 11-digit phone number" placeholder="eg. 07038224367">
+                </div>
+                <div class="label">
+                    <input type="button" class="btn1" value="Next Step">
+                </div>
+            </form>
+        </div>
+        <div class="text2">
+            <h1 class="selects">Select your plan</h1>
+            <p class="you">You have the option of monthly or yearly billing</p>
+            <form method="get" id="myform2">
+                <div class="plan">
+                    <label for="Arcade" class="al" title="click to select">
+                        <img src="static\images\arcade.png" alt="" class="planimages">
+                        <input type="checkbox" id="Arcade" value="Arcade">
+                        <p class="p1">Arcade<br><span class="money" id="m">$9/mo</span></p>
+                        <span class="addinfo">2 months free</span>
+                    </label>
+                    <label for="Advanced" class="adl" title="click to select">
+                        <img src="static\images\advanced.png" alt="" class="planimages">
+                        <input type="checkbox" id="Advanced" value="Advanced">
+                        <p class="p2">Advanced<br><span class="money" id="m2">$12/mo</span></p>
+                        <span class="addinfo2">2 months free</span>
+                    </label>
+                    <label for="pro" class="pl" title="click to select" >
+                        <img src="static\images\pro.png" alt="" class="planimages">
+                        <input type="checkbox" id="pro" value="Pro" >
+                        <p class="p3">Pro<br><span id="m3" class="money">$15/mo</span></p>
+                        <span class="addinfo3">2 months free</span>
+                    </label>
+                </div>
+                <div class="divtog">
+                    <p class="month">Monthly</p>
+                    <input type="checkbox" id="check" value="" required >
+                    <label for="check" class="lc" title="move button left to select monthly and right to select yearly"> </label>
+                    <p class="year">Yearly</p>                     
+                </div> 
+                <div>
+                    <small class="smallerr">select a plan to continue</small>
+                    <input type="button" class="btn3" id="gobk1" value="Go Back">
+                    <input type="button" class="btn2" id="ns" value="Next Step">
+                </div>
+            </form>
+        </div>
+        <div class="text3">
+            <h1 class="selects"> Pick add-ons </h1>
+            <p class="you">Add-ons help enhance your gaming experience.</p>
+            <form id="myform3">
+                <div class="addone">
+                    <input type="checkbox" id="add1" value="Online service">
+                    <p class="o">Online service<br><span class="as">Access to multiplayer games</span></p>
+                    <p id="m1" class="yr1">+$1/mo</p>
+                </div>
+                <div class="addtwo">
+                    <input type="checkbox" id="add2" value="Larger storage">
+                    <p class="l">Larger storage<br><span class="ex">Extra 1TB of cloud save</span></p>
+                    <p id="m1" class="yr2">+$2/mo</p>
+                </div>
+                <div class="addthree">
+                    <input type="checkbox" id="add3" value="Customizable Profile ">
+                    <p class="c">Customizable Profile<br><span class="cu">Custom theme on your profile</span></p>
+                    <p id="m1" class="yr3">+$2/mo</p>
+                </div>
+                <div>
+                    <input type="button" class="btn3" id="gobk2" value="Go Back">
+                    <input type="button" class="btn2" id="btn33"  value="Next Step">
+                </div>
+            </form>
+        </div>
+        <div class="text5">
+            <h1 class="selects">Finishing up</h1>
+            <p class="you">Double-check everything looks OK before confirming.</p>
+            <div class="finish">
+                <p class="f1">Arcade(Monthly)</p>
+                <span class="change">change</span>
+                <hr>
+                <p class="f2">$9/mo</p>
+                <div class="set">
+                    <p class="online"> Online service</p>
+                    <p class="f3">+$1/mo</p>
+                </div>
+                <div class="set">
+                    <p class="larger">Larger storage</p>
+                    <p class="f4">+$2/mo</p>
+                </div>
+                <div class="set">
+                <p class="customize">Customizable Profile</p>
+                <p class="f42">+$2/mo</p>
+                </div>
+                
+            </div>
+            <div>
+                <p class="total">Total(per month)</p>
+                <p class="f5">+$12/mo</p>
+            </div>
+            <div>
+                <input type="button" class="btn3" id="go" value="Go Back">
+                <input type="button" class="btn2" id="btn4" value="Confirm">
+            </div>
+        </div>
+        <div class="text6">
+            <img src="static\images\thanks.png" alt="" class="thimage">
+            <h2 class="th">Thank you!</h2>
+            <p class="last">Thanks for confirming your subscription! We hope you have<br>fun using our platform. If you ever need support, please feel<br>free to email us at support@loremgaming.com</p>
+        </div>
+    </div>
+    <script src="static\script\main.js" defer></script>
+    <script src="static\script\main2.js" defer></script>
+    <script src="static\script\main3.js" defer></script>
+    <script src="static\script\main4.js" defer></script>
+</body>
+</html>
